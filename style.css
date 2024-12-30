@@ -83,3 +83,7 @@ transition: 0.6s ease;
 	color: #000;
 
 }
+
+.hide {
+	display: none;
+}
