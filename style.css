@@ -94,6 +94,13 @@ transition: 0.6s ease;
 	  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
 }
+
+@media screen {
+	* {
+		font-family: Century Gothic;
+	}
+}
+
 @media screen and (max-width: 800px) {
 	header{
 		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./rsz_1.jpg);
