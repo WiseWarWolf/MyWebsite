@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }	
 
-header{
+body {
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./1.jpg);
 	height: 100vh;
 	background-size: cover;
@@ -14,19 +14,36 @@ header{
 	font-family: "Oswald", serif;
 }
 
+header a{
+	text-decoration: none;
+}
+
+header{
+	padding: 0 20px;
+	background-color: #000;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
 ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 25px
+	list-style: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 ul li{
-	display: inline-block;
+	padding: 3px;
+	margin-left: 0px;
+}
+
+ul a {
+	color: white;
 }
 
 ul li a{
-	text-decoration: none;
-	color: #fff;
 	padding: 5px 20px;
 	border: 1px solid #fff;
 	transition: 0.6s ease;
@@ -41,15 +58,19 @@ ul li.active a{
 	background-color: #fff;
 	color: #000;
 }
+ul li.active a:hover{
+	background-color: #000;
+	color: #fff;
+}
 
 img {
 	max-width: 100%;
 	height: auto;
 }
 
-.logo img{
+#logo{
 	float: left;
-	width: 150px;
+	width: 50px;
 	height: auto;
 }
 
@@ -88,7 +109,6 @@ transition: 0.6s ease;
 }
 
 #hamburger-icon {
-	float: right;
 	margin: auto 0;
 	display: none;
 	cursor: pointer;
@@ -137,7 +157,7 @@ transition: 0.6s ease;
 }
 
 @media screen and (max-width: 800px) {
-	header{
+	body{
 		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./rsz_1.jpg);
 	}
 
