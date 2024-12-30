@@ -14,10 +14,6 @@ header{
 	font-family: "Oswald", serif;
 }
 
-nav{
-	display: block;
-}
-
 ul{
 	float: right;
 	list-style-type: none;
@@ -92,6 +88,7 @@ transition: 0.6s ease;
 }
 
 #hamburger-icon {
+	float: right;
 	margin: auto 0;
 	display: none;
 	cursor: pointer;
