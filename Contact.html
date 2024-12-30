@@ -8,10 +8,10 @@
 </head>
 <body>
     <header>
-        <div class="main">		
-			<div class="logo">
-				<img src="2.jpg">
-			</div>
+		<div id="logo">
+			<img src="2.jpg">
+		</div>
+		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="Services.html">Services</a></li>
@@ -19,7 +19,20 @@
 				<li><a href="About.html">About</a></li>
 				<li class="active"><a href="#">Contact</a></li>
 			</ul>
+		</nav>
+		<div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+			<ul class="mobile-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Services.html">Services</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="About.html">About</a></li>
+				<li class="active"><a href="#">Contact</a></li>
+			</ul>
 		</div>
-    </header>
+	</header>
+	<script src="script.js"></script>
 </body>
 </html>
