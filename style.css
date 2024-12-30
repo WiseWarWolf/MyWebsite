@@ -52,7 +52,7 @@ img {
 	height: auto;
 }
 
-.main{
+nav{
 	max-width: 12000px;
 	margin: auto;
 }
@@ -92,7 +92,7 @@ transition: 0.6s ease;
 }
 
 @media screen and (max-width: 800px) {
-	.left, .main, .right {
+	nav{
 		margin: auto;
 		max-width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
@@ -107,5 +107,11 @@ transition: 0.6s ease;
 @media screen and (max-width: 800px) {
 	header{
 		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./rsz_1.jpg);
+	}
+}
+
+@media screen and (max-width: 800px) {
+	header nav{
+		display: none;
 	}
 }
