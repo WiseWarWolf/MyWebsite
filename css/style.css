@@ -26,6 +26,15 @@ header{
 	justify-content: space-between;
 }
 
+#title{
+	color: #fff;
+	font-size: 70px;
+	text-align: center;
+}
+#body{
+	color: #fff;
+}
+
 ul{
 	list-style: none;
 	height: 100%;
